@@ -15,7 +15,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 class UserController extends Controller
 {
     /**
-     * @Route("user/login")
+     * @Route("/login/{$name}")
      * @Template()
      */
     public function loginAction($name)
